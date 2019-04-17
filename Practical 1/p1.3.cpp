@@ -1,7 +1,5 @@
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-
-using namespace std;
 
 class Demo{
     private:
@@ -73,6 +71,7 @@ int main(){
     d.factorial();
     d.reverseNo();
     d.isPalindrome();
+    d.isArmstrong();
     getch();
     return 0;
 }
