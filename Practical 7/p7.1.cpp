@@ -1,8 +1,6 @@
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
 #include <string.h>
-
-using namespace std;
 
 void stringlength(){
     char a[20] = "Hello";
