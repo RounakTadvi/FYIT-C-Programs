@@ -13,7 +13,7 @@ class student{
     }
     public:
     void displayData(){
-        getData();
+        getData();  // calling private method
         cout << "Student Name:" << name << endl;
         cout << "Roll Number:" << roll_no << endl;
     }
