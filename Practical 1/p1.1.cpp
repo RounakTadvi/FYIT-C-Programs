@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;
+
 class employee {
 
     private:
@@ -8,11 +8,11 @@ class employee {
     int age;
     float salary;
     void getInfo() {
-         cout << "Enter the employee's name";
+         cout << "Enter the employee's name:" << endl;
          cin >> name;
-         cout << "Enter age";
+         cout << "Enter age:" << endl;
          cin >> age;
-         cout << "Enter Salary";
+         cout << "Enter Salary:" << endl;
          cin >> salary;
     }
 
